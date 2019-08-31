@@ -43,7 +43,15 @@
             文章目录
           </p>
           <div class="toc-container hidden lg:block">
-            
+            <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E4%B8%80-%E5%BD%93ubuntu1804linux%E4%B8%BA%E9%9D%9E%E4%B8%AD%E6%96%87%E7%8A%B6%E6%80%81%E6%97%B6">解决方案一、当Ubuntu18.04(Linux)为非中文状态时</a></li>
+<li><a href="#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88%E4%BA%8C-%E4%BD%BF%E7%94%A8%E9%80%9A%E7%94%A8%E5%AD%97%E4%BD%93%E5%BE%AE%E8%BD%AF%E9%9B%85%E9%BB%91">解决方案二、使用通用字体微软雅黑</a></li>
+</ul>
+</li>
+</ul>
+
           </div>
         </div>
       
@@ -88,13 +96,61 @@
 <div class="mask" onclick="closeMenu()">
 </div>
       <div class="content-wrapper py-32 lg:p-8 lg:w-3/4 post-detail animated fadeIn">
-        <h1 class="text-3xl font-bold lg:mt-16">关于</h1>
+        <h1 class="text-3xl font-bold lg:mt-16">deepin-wine wechat 中文乱码解决方案 Ubuntu18.04</h1>
         <div class="text-sm text-gray-700 lg:my-8">
-          2019-01-25 / 1 min read
+          2019-09-01 / 1 min read
         </div>
         
         <div class="post-content yue">
-          <p>这是关于的页面，可以在这里向世界介绍你！</p>
+          <h2 id="解决方案一-当ubuntu1804linux为非中文状态时">解决方案一、当Ubuntu18.04(Linux)为非中文状态时</h2>
+<pre><code>gedit /opt/deepinwine/tools/run.sh
+</code></pre>
+<p>找到WINE_CMD<br>
+修改为：</p>
+<pre><code>WINE_CMD=&quot;LC_ALL=zh_CN.UTF-8 deepin-wine&quot;
+</code></pre>
+<h2 id="解决方案二-使用通用字体微软雅黑">解决方案二、使用通用字体微软雅黑</h2>
+<p>**备注：最好在实行方案一后，再实行方案二，同时实行，双管齐下 **</p>
+<ul>
+<li>1、修改字体<br>
+下载字体msyh.ttc,</li>
+</ul>
+<blockquote>
+<p>下载地址一：蓝奏云 （推荐）https://www.lanzous.com/i5wivmd<br>
+下载地址二：百度网盘 链接: https://pan.baidu.com/s/1rkjkmGJlpdaijCEWi7TZIw 提取码: btxw</p>
+</blockquote>
+<p>将下载的字体解压，然后：</p>
+<pre><code>cp msyh.ttc ~/.deepinwine/Deepin-WeChat/drive_c/windows/Fonts
+</code></pre>
+<ul>
+<li>2、修改系统注册表</li>
+</ul>
+<pre><code>gedit ~/.deepinwine/Deepin-WeChat/system.reg
+</code></pre>
+<p>更改以下两行内容为：</p>
+<pre><code>&quot;MS Shell Dlg&quot;=&quot;msyh&quot;
+&quot;MS Shell Dlg 2&quot;=&quot;msyh&quot;
+</code></pre>
+<ul>
+<li>3、字体注册</li>
+</ul>
+<pre><code>gedit msyh_config.reg
+</code></pre>
+<p>在文件msyh_config.reg内添加如下内容：</p>
+<pre><code>REGEDIT4
+[HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\FontLink\SystemLink]
+&quot;Lucida Sans Unicode&quot;=&quot;msyh.ttc&quot;
+&quot;Microsoft Sans Serif&quot;=&quot;msyh.ttc&quot;
+&quot;MS Sans Serif&quot;=&quot;msyh.ttc&quot;
+&quot;Tahoma&quot;=&quot;msyh.ttc&quot;
+&quot;Tahoma Bold&quot;=&quot;msyhbd.ttc&quot;
+&quot;msyh&quot;=&quot;msyh.ttc&quot;
+&quot;Arial&quot;=&quot;msyh.ttc&quot;
+&quot;Arial Black&quot;=&quot;msyh.ttc&quot;
+</code></pre>
+<p>注册</p>
+<pre><code>deepin-wine regedit msyh_config.reg
+</code></pre>
 
         </div>
 
@@ -104,6 +160,15 @@
         <div class="flex justify-between py-8">
           
 
+          
+            <div class="next-post">
+              <a href="https://jianghoumin.github.io//post/hello-gridea">
+                <h3 class="post-title">
+                  Hello Gridea
+                  <i class="remixicon-arrow-right-line"></i>
+                </h3>
+              </a>
+            </div>
           
         </div>
 
