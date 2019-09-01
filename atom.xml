@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jianghoumin.github.io/</id>
     <title>不明真相的群众</title>
-    <updated>2019-09-01T06:29:47.286Z</updated>
+    <updated>2019-09-01T06:43:08.035Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jianghoumin.github.io/"/>
     <link rel="self" href="https://jianghoumin.github.io//atom.xml"/>
@@ -20,6 +20,7 @@
 ]]></summary>
         <content type="html"><![CDATA[<p>解决Ubuntu环境下wechat中文乱码出现口口情况</p>
 <!-- more -->
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=28854182&auto=1&height=66"></iframe>
 <h2 id="解决方案一-当ubuntu1804linux为非中文状态时">解决方案一、当Ubuntu18.04(Linux)为非中文状态时</h2>
 <pre><code>gedit /opt/deepinwine/tools/run.sh
 </code></pre>
