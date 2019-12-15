@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jianghoumin.github.io/</id>
     <title>不明真相的群众</title>
-    <updated>2019-12-15T15:32:32.805Z</updated>
+    <updated>2019-09-01T06:43:08.035Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jianghoumin.github.io/"/>
     <link rel="self" href="https://jianghoumin.github.io//atom.xml"/>
@@ -10,24 +10,6 @@
     <logo>https://jianghoumin.github.io//images/avatar.png</logo>
     <icon>https://jianghoumin.github.io//favicon.ico</icon>
     <rights>All rights reserved 2019, 不明真相的群众</rights>
-    <entry>
-        <title type="html"><![CDATA[杂文有感]]></title>
-        <id>https://jianghoumin.github.io//post/za-wen-you-gan</id>
-        <link href="https://jianghoumin.github.io//post/za-wen-you-gan">
-        </link>
-        <updated>2019-10-20T12:41:13.000Z</updated>
-        <summary type="html"><![CDATA[<pre><code>作为一个“愤青”，今天的我忽然间对台湾和香港的新闻失去了兴趣，或者说是倦怠。</code></pre>
-]]></summary>
-        <content type="html"><![CDATA[<pre><code>作为一个“愤青”，今天的我忽然间对台湾和香港的新闻失去了兴趣，或者说是倦怠。
-</code></pre>
-<!-- more -->
-<p>一、这些年一直追踪时事热点，对于各种事件都想从自己的角度去做出解释，碍于学识经历，只能拾人牙慧。对于香港事件，就像一群猎食者看待一只即将死去的大象，都想从它的尸体上分一块肉。人都是被自己的认知所限制，所谓真相，即自己相信的才为真相。社会的撕裂是香港最大的苦痛，初见不经意，待祸事已成，唯时间一点一点抚平，别无他法，不胜唏嘘。</p>
-<p>二、台湾说真的，就是自由民主最拙劣的实践。而政治内耗，将大部分人的时间消逝，且岛内人乐此不疲。身份的认同以及文化的模糊定位造成岛内人没有一个“国家”概念，不管是中华民国还是中华人名共和国。每个国家都是以自己国家利益为优先，法律始终为国家利益服务，而不是公平正义，虽然每次都要拿公平正义当遮羞布，造成师出有名的假象。</p>
-<p>三、鲁迅的文章放在今日，一点也不违和，说明这世道还跟百年前一样。对于中华文明我是自豪的，甚至有点自负。在灯塔国，你会听见其他种族哭诉种族歧视，唯独不见华人，即使被歧视。说真的，拉不下那脸，堂堂天朝上国，五千年文化加身，从心底就没认为自己血统低劣。基于种种原因，国人的言行和思想是撕裂的，程度看你接触你抵触事物多少。</p>
-<p>四、终归大部分都是鲁迅笔下的那只猹，大话西游城墙下的观望者，卑微的生活着，躁动着，绝望着，希望着，如此往复循环。承认自己是一个普通人真的好难、好难。或许这在初出校园后都能体会到，但是承认这是一个概率的世界更难。努力真的不一定有结果，或者说得不到你希望的结果，这与我们从小的认知出入甚大。唯一能做的就是在正确的路上做正确的事，一直努力做，增大概率。但操蛋的是，他妈的谁知道哪件事对哪件事错，路到底通不通。</p>
-<p>五、隐入人群，该吃吃，该喝喝，怀着一颗非恶之心，做性情中人，如此也甚好。</p>
-]]></content>
-    </entry>
     <entry>
         <title type="html"><![CDATA[deepin-wine wechat 中文乱码解决方案 Ubuntu18.04]]></title>
         <id>https://jianghoumin.github.io//post/deepin-wine-wechat-zhong-wen-luan-ma-jie-jue-fang-an-ubuntu1804</id>
