@@ -2,18 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://jianghoumin.github.io/</id>
     <title>不明真相的群众</title>
-    <updated>2019-12-15T15:32:32.805Z</updated>
+    <updated>2020-03-07T14:36:41.719Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://jianghoumin.github.io/"/>
-    <link rel="self" href="https://jianghoumin.github.io//atom.xml"/>
+    <link rel="self" href="https://jianghoumin.github.io/atom.xml"/>
     <subtitle>You have a dream, you must protect it!</subtitle>
-    <logo>https://jianghoumin.github.io//images/avatar.png</logo>
-    <icon>https://jianghoumin.github.io//favicon.ico</icon>
-    <rights>All rights reserved 2019, 不明真相的群众</rights>
+    <logo>https://jianghoumin.github.io/images/avatar.png</logo>
+    <icon>https://jianghoumin.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2020, 不明真相的群众</rights>
     <entry>
         <title type="html"><![CDATA[杂文有感]]></title>
-        <id>https://jianghoumin.github.io//post/za-wen-you-gan</id>
-        <link href="https://jianghoumin.github.io//post/za-wen-you-gan">
+        <id>https://jianghoumin.github.io/post/za-wen-you-gan/</id>
+        <link href="https://jianghoumin.github.io/post/za-wen-you-gan/">
         </link>
         <updated>2019-10-20T12:41:13.000Z</updated>
         <summary type="html"><![CDATA[<pre><code>作为一个“愤青”，今天的我忽然间对台湾和香港的新闻失去了兴趣，或者说是倦怠。</code></pre>
@@ -30,8 +30,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[deepin-wine wechat 中文乱码解决方案 Ubuntu18.04]]></title>
-        <id>https://jianghoumin.github.io//post/deepin-wine-wechat-zhong-wen-luan-ma-jie-jue-fang-an-ubuntu1804</id>
-        <link href="https://jianghoumin.github.io//post/deepin-wine-wechat-zhong-wen-luan-ma-jie-jue-fang-an-ubuntu1804">
+        <id>https://jianghoumin.github.io/post/deepin-wine-wechat-zhong-wen-luan-ma-jie-jue-fang-an-ubuntu1804/</id>
+        <link href="https://jianghoumin.github.io/post/deepin-wine-wechat-zhong-wen-luan-ma-jie-jue-fang-an-ubuntu1804/">
         </link>
         <updated>2019-08-31T17:44:28.000Z</updated>
         <summary type="html"><![CDATA[<p>解决Ubuntu环境下wechat中文乱码出现口口情况</p>
@@ -92,8 +92,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://jianghoumin.github.io//post/hello-gridea</id>
-        <link href="https://jianghoumin.github.io//post/hello-gridea">
+        <id>https://jianghoumin.github.io/post/hello-gridea/</id>
+        <link href="https://jianghoumin.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
